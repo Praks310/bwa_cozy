@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bwa_cozy"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:35:5-56:11
+17
+18        <!-- If your app opens https URLs -->
+19        <intent>
+19-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:37:3-40:12
+20            <action android:name="android.intent.action.VIEW" />
+20-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:38:5-57
+20-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:38:13-54
+21
+22            <data android:scheme="https" />
+22-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:39:5-36
+22-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:39:11-33
+23        </intent>
+24        <!-- If your app makes calls -->
+25        <intent>
+25-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:42:3-45:12
+26            <action android:name="android.intent.action.DIAL" />
+26-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:43:5-57
+26-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:43:13-54
+27
+28            <data android:scheme="tel" />
+28-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:39:5-36
+28-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:39:11-33
+29        </intent>
+30        <!-- If your sends SMS messages -->
+31        <intent>
+31-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:47:3-50:12
+32            <action android:name="android.intent.action.SENDTO" />
+32-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:48:5-59
+32-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:48:13-56
+33
+34            <data android:scheme="smsto" />
+34-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:39:5-36
+34-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:39:11-33
+35        </intent>
+36        <!-- If your app sends emails -->
+37        <intent>
+37-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:52:3-55:12
+38            <action android:name="android.intent.action.SEND" />
+38-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:53:5-57
+38-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:53:13-54
+39
+40            <data android:mimeType="*/*" />
+40-->D:\Project\Bootcamp\Flutter\bwa_cozy\android\app\src\main\AndroidManifest.xml:39:5-36
+41        </intent>
+42    </queries>
+43
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:23:5-79
+44-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:23:22-76
+45    <uses-permission android:name="android.permission.WAKE_LOCK" />
+45-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:24:5-68
+45-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:24:22-65
+46    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+46-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:5-110
+46-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:22-107
+47    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+47-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\b87ee6138d9a16505fa287f68d56a584\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+47-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\b87ee6138d9a16505fa287f68d56a584\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
+48
+49    <application
+50        android:name="android.app.Application"
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.6.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\8ec5a4192b12a309556d408337153575\core-1.6.0\AndroidManifest.xml:24:18-86
+52        android:debuggable="true"
+53        android:icon="@mipmap/ic_launcher"
+54        android:label="bwa_cozy" >
+55        <activity
+56            android:name="com.example.bwa_cozy.MainActivity"
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+58            android:exported="true"
+59            android:hardwareAccelerated="true"
+60            android:launchMode="singleTop"
+61            android:theme="@style/LaunchTheme"
+62            android:windowSoftInputMode="adjustResize" >
+63
+64            <!--
+65                 Specifies an Android theme to apply to this Activity as soon as
+66                 the Android process has started. This theme is visible to the user
+67                 while the Flutter UI initializes. After that, this theme continues
+68                 to determine the Window background behind the Flutter UI.
+69            -->
+70            <meta-data
+71                android:name="io.flutter.embedding.android.NormalTheme"
+72                android:resource="@style/NormalTheme" />
+73
+74            <intent-filter>
+75                <action android:name="android.intent.action.MAIN" />
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+78            </intent-filter>
+79        </activity>
+80        <!--
+81             Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+85            android:name="flutterEmbedding"
+86            android:value="2" />
+87
+88        <activity
+88-->[:url_launcher_android] D:\Project\Bootcamp\Flutter\bwa_cozy\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+89            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+89-->[:url_launcher_android] D:\Project\Bootcamp\Flutter\bwa_cozy\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+90            android:exported="false"
+90-->[:url_launcher_android] D:\Project\Bootcamp\Flutter\bwa_cozy\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+91            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+91-->[:url_launcher_android] D:\Project\Bootcamp\Flutter\bwa_cozy\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+92
+93        <service
+93-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:27:9-33:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:28:13-84
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+96            android:exported="false" >
+96-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:29:13-37
+97            <meta-data
+97-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:30:13-32:85
+98                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+98-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:31:17-139
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\9e738151abdf33b4f102becf9a6bad6e\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:32:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+101                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+101-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+103        </service>
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:20.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:20.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+107            android:authorities="com.example.bwa_cozy.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:20.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+109            android:exported="false"
+109-->[com.google.firebase:firebase-common:20.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+110            android:initOrder="100" />
+110-->[com.google.firebase:firebase-common:20.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+111
+112        <receiver
+112-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:29:9-33:20
+113            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+113-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:30:13-85
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:31:13-35
+115            android:exported="false" >
+115-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:32:13-37
+116        </receiver>
+117
+118        <service
+118-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:35:9-38:40
+119            android:name="com.google.android.gms.measurement.AppMeasurementService"
+119-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:36:13-84
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:37:13-35
+121            android:exported="false" />
+121-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:38:13-37
+122        <service
+122-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:39:9-43:72
+123            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+123-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:40:13-87
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:41:13-35
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:42:13-37
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\7f76d9c9603f5f5c54251ad07a4d5d56\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:43:13-69
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\6f55727569cdc4f2e92c738b6d0b61e3\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\6f55727569cdc4f2e92c738b6d0b61e3\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\TPRX-PC\.gradle\caches\transforms-2\files-2.1\6f55727569cdc4f2e92c738b6d0b61e3\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+131    </application>
+132
+133</manifest>
